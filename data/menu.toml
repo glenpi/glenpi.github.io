@@ -15,14 +15,14 @@ title = "writing"
   show_more_text = "Dive into the archive"
   show_more_url = "posts"
 
-[[entries]]
-title = "elsewhere"
+# [[entries]]
+# title = "elsewhere"
+ 
+#  [[entries.entries]]
+#  title = "github"
+#  url = "https://github.com/glenpi"
 
-  [[entries.entries]]
-  title = "github"
-  url = "https://github.com/glenpi"
-
-  [[entries.entries]]
-  title = "linkedin"
-  url = "https://www.linkedin.com/in/glenpi"
+#  [[entries.entries]]
+#  title = "linkedin"
+#  url = "https://www.linkedin.com/in/glenpi"
 
