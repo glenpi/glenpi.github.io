@@ -1,6 +1,6 @@
 baseURL = 'https://glenpi.github.io/'
 languageCode = 'en'
-title = 'glenpi'
+title = 'Glen Pi'
 theme = 'nostyleplease'
 enableRobotsTXT = true
 
