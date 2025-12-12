@@ -19,17 +19,6 @@ title = "writing"
   show_more_url = "posts"
 
 [[entries]]
-title = "notes"
-
-  [[entries.entries]]
-  title = "home"
-  url = "/"
-
-  [[entries.entries]]
-  title = "all posts"
-  url = "posts"
-
-[[entries]]
 title = "elsewhere"
 
   [[entries.entries]]
@@ -40,6 +29,3 @@ title = "elsewhere"
   title = "linkedin"
   url = "https://www.linkedin.com/in/glenpi"
 
-[[entries]]
-title = "rss"
-url = "index.xml"
