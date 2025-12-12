@@ -1,9 +1,0 @@
-<div class="site-branding">
-  <a class="brand" href="{{ relLangURL "/" }}">
-    <span class="brand-title">{{ site.Title }}</span>
-    {{ with site.Params.tagline }}
-      <span class="brand-tagline">{{ . }}</span>
-    {{ end }}
-  </a>
-</div>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}

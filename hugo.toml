@@ -1,8 +1,36 @@
 baseURL = 'https://glenpi.github.io/'
 languageCode = 'en'
 title = 'glenpi'
-theme = 'glenpi'
+theme = 'nostyleplease'
 enableRobotsTXT = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.128.0'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'rrt'
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
 
 [pagination]
 pagerSize = 5
@@ -12,28 +40,10 @@ author = 'Glen Pierson'
 tagline = 'Engineer. Builder. Curious human.'
 description = 'Notes on software engineering, tiny experiments, and a few useful discoveries from my day-to-day work.'
 
-[[params.social]]
-label = 'GitHub'
-url = 'https://github.com/glenpi'
-
-[[params.social]]
-label = 'LinkedIn'
-url = 'https://www.linkedin.com/in/glenpi'
-
-[[menu.main]]
-identifier = 'home'
-name = 'Home'
-url = '/'
-weight = 1
-
-[[menu.main]]
-identifier = 'posts'
-name = 'Posts'
-url = '/posts/'
-weight = 2
-
-[[menu.main]]
-identifier = 'about'
-name = 'About'
-url = '/about/'
-weight = 3
+  [params.theme_config]
+  appearance = 'auto'
+  back_home_text = '.. back'
+  date_format = '02 Jan 2006'
+  isListGroupByDate = true
+  isShowFooter = true
+  show_description = true

@@ -1,0 +1,45 @@
+[[entries]]
+title = "about"
+
+  [[entries.entries]]
+  title = "Engineer. Builder. Curious human with a soft spot for tidy systems."
+
+  [[entries.entries]]
+  title = "about page"
+  url = "about"
+
+[[entries]]
+title = "writing"
+
+  [entries.post_list]
+  section = "posts"
+  limit = 5
+  show_more = true
+  show_more_text = "Dive into the archive"
+  show_more_url = "posts"
+
+[[entries]]
+title = "notes"
+
+  [[entries.entries]]
+  title = "home"
+  url = "/"
+
+  [[entries.entries]]
+  title = "all posts"
+  url = "posts"
+
+[[entries]]
+title = "elsewhere"
+
+  [[entries.entries]]
+  title = "github"
+  url = "https://github.com/glenpi"
+
+  [[entries.entries]]
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/glenpi"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
