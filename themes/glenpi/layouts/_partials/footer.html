@@ -1,0 +1,10 @@
+<div class="footer-meta">
+  <p>© {{ now.Year }} {{ site.Params.author | default site.Title }}. Built with Hugo.</p>
+  {{ with site.Params.social }}
+    <ul class="social-links">
+      {{ range . }}
+        <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</div>

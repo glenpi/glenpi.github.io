@@ -1,0 +1,39 @@
+baseURL = 'https://glenpi.github.io/'
+languageCode = 'en'
+title = 'glenpi'
+theme = 'glenpi'
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 5
+
+[params]
+author = 'Glen Pierson'
+tagline = 'Engineer. Builder. Curious human.'
+description = 'Notes on software engineering, tiny experiments, and a few useful discoveries from my day-to-day work.'
+
+[[params.social]]
+label = 'GitHub'
+url = 'https://github.com/glenpi'
+
+[[params.social]]
+label = 'LinkedIn'
+url = 'https://www.linkedin.com/in/glenpi'
+
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 2
+
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 3
