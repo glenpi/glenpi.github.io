@@ -2,9 +2,6 @@
 title = "about"
 
   [[entries.entries]]
-  title = "Engineer. Builder. Curious human with a soft spot for tidy systems."
-
-  [[entries.entries]]
   title = "about page"
   url = "about"
 

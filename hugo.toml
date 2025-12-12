@@ -36,9 +36,9 @@ enableRobotsTXT = true
 pagerSize = 5
 
 [params]
-author = 'Glen Pierson'
+author = 'Glen Pi'
 tagline = 'Engineer. Builder. Curious human.'
-description = 'Notes on software engineering, tiny experiments, and a few useful discoveries from my day-to-day work.'
+description = 'Observe and build.'
 
   [params.theme_config]
   appearance = 'auto'
